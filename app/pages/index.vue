@@ -1,3 +1,59 @@
 <template>
-    <p>Hello world</p>
+    <section class="grid place-content-center space-y-4 mt-8">
+        <div class="space-y-2">
+            <h2 class="font-bold text-6xl text-center">
+                Retrouvez vos objets perdus
+            </h2>
+            <h2 class="font-bold text-6xl text-center">en toute sécurité</h2>
+            <p class="text-[#5c636e]  text-center">
+                Publie, match et retrouve - juste en quelques clics
+            </p>
+        </div>
+        <div class="flex gap-4 items-center justify-center">
+            <Button text="Poster un objet perdu" class="bg-[#152949] text-white border-2 border-blue-700 hover:shadow-blue-300" />
+            <Button text="Poster un objet trouvé" class="bg-[#152949] text-[#BF6BC7] border-[#BF6BC7] hover:shadow-purple-300 border" />
+        </div>
+    </section>
+
+    <section class="grid space-y-2 mt-8 p-2">
+        <div class="p-2">
+            <div class="grid backdrop-blur-3xl bg-blue-500/30 rounded p-8">
+                <p class="text-shadow-xs text-shadow-black text-xl  font-light text-center uppercase">Tout le
+                    processus en 03 actions. Pas plus !</p>
+                <ul class="grid grid-cols-3 gap-2 p-4 space-y-4 mt-8 justify-between">
+                    <li class="text-sm text-center space-y-2 ">
+                        <span class="flex items-center">
+                            <img width="20" src="/assets/svg/phone.svg" alt="phone svg" />
+                            Publier un objet perdu
+                        </span>
+                        <img width="300" class="rounded" src="/assets/landing-page-img-1.png"
+                            alt="illustration image" />
+                        <p class="text-shadow-xs text-shadow-black text-white text-xl font-bold">
+                            1
+                        </p>
+                    </li>
+                    <li class="text-sm text-center space-y-2">
+                        <span class="flex items-center">
+                            <img width="20" src="/assets/svg/notification.svg" alt="phone svg" />
+                            Recevoir des notifications de matching
+                        </span>
+                        <img width="300" class="rounded" src="/assets/matching.png" alt="illustration image" />
+                        <p class="text-shadow-xs text-shadow-black text-white text-xl font-bold">
+                            2
+                        </p>
+                    </li>
+                    <li class="text-sm text-center space-y-2">
+                        <span class="flex items-center">
+                            <img width="20" src="/assets/svg/match.svg" alt="phone svg" />
+                            Retrouver l'objet perdu
+                        </span>
+                        <img width="300" class="rounded" src="/assets/finding.png" alt="illustration image" />
+                        <p class="text-shadow-xs text-shadow-black text-white text-xl font-bold">
+                            3
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </template>

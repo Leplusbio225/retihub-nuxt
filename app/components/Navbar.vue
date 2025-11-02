@@ -11,7 +11,7 @@
 
         <div class="flex gap-4">
             <NuxtLink to="/">Accueil</NuxtLink>
-            <NuxtLink to="/hub">Le Hub</NuxtLink>
+            <NuxtLink to="/hub">Le Hub✨</NuxtLink>
             <NuxtLink to="/about">À propos</NuxtLink>
         </div>
 
