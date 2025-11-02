@@ -1,75 +1,27 @@
-# Nuxt Minimal Starter
+# RetiHub
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+🚀 **RetiHub** est une plateforme web qui simplifie la recherche et la récupération d’objets perdus.
 
-## Setup
+Les utilisateurs publient une annonce (perdu ou trouvé), et le système connecte automatiquement les bonnes personnes grâce au matching intelligent et aux notifications en temps réel.
 
-Make sure to install dependencies:
+L'idée est née après une observation des difficultés que rencontrait la plupart sur Facebook lors de la perte d'un objet précieux tels que la Carte CNI, le passeport et bien d'autres.
 
-```bash
-# npm
-npm install
+Il fallait passer par des publications qui nécessitaient un partage massif dans l'espoir de rentrer en contact avec la personne en possession de l'objet recherché.
 
-# pnpm
-pnpm install
+RetiHub donc vise à faciliter ce processus en servant d'intermédiaire entre les **Finder** et les **Owner**. Nous comptons sur vous pour faire de **RetiHub** la plus grande communauté de partage et d'entraide qui puisse exister afin de donner le sourire à chacun de vous.
 
-# yarn
-yarn install
+### ✨ Points clés
 
-# bun
-bun install
-```
+- Publier un objet perdu/trouvé en quelques secondes
+- Matching automatique par type, tags et photo
+- Notifications instantanées dès qu’un objet correspond
+- Messagerie sécurisée (aucune donnée personnelle exposée)
 
-## Development Server
+🎨 **Identité** : minimal, moderne, confiance
 
-Start the development server on `http://localhost:3000`:
+- Couleurs : `blue-950` (fond), `blue-500` (actions)
+- Logo : `RetiHub`
 
-```bash
-# npm
-npm run dev
+---
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+💡 **Mission** : Rendre la recherche d’objets perdus rapide, simple et sûre.
