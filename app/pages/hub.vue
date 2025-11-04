@@ -1,5 +1,5 @@
 <template>
-    
+
     <div class="grid p-2 space-y-10! mt-8">
         <div class="p-2 space-y-1.5">
             <h3 class="text-4xl">Bienvenue sur le Hub✨,</h3>
@@ -15,15 +15,9 @@
         <!-- Most recent posts -->
 
         <div class="p-3 space-y-4">
-            <div class="flex items-center justify-between">
-                <p class="text-slate-300">
-                    Les plus recents
-                </p>
-
-                <p>
-                    <NuxtLink to="/">Afficher plus</NuxtLink>
-                </p>
-            </div>
+            <p class="text-slate-300">
+                Les plus recents
+            </p>
             <section class="flex flex-wrap space-x-4 space-y-3 ">
 
                 <div v-for="i in 8" :key="i"
@@ -50,15 +44,10 @@
         <!-- Most popular -->
 
         <div class="p-3 space-y-4">
-            <div class="flex items-center justify-between">
-                <p class="text-slate-300">
-                    Les plus populaires
-                </p>
+            <p class="text-slate-300">
+                Les plus populaires
+            </p>
 
-                <p>
-                    <NuxtLink to="/">Afficher plus</NuxtLink>
-                </p>
-            </div>
             <section class="flex flex-wrap space-x-4 space-y-3 ">
 
                 <div v-for="i in 15" :key="i"
