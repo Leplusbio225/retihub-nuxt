@@ -16,7 +16,7 @@
     </section>
 
     <section class="grid space-y-2 mt-8 p-2">
-        <div class="p-2">
+        <div class="p-2 space-y-6">
             <div class="grid backdrop-blur-3xl bg-blue-500/30 rounded p-8">
                 <p class="text-shadow-xs text-shadow-black text-xl  font-light text-center uppercase">Tout le
                     processus en 03 actions. Pas plus !</p>
@@ -54,6 +54,45 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="space-y-1 mt-8 italic">
+                <p class="text-4xl">
+                    Les <span class="text-red-500" style="text-shadow: 1px 1px 1px  #9f0712;">chiffres </span>  
+                    <span>témoignent</span>,
+                </p>
+                <p class="text-4xl">
+                    Notre 
+                     <span class="text-[#bf6bc7]" style="text-shadow: 1px 1px 1px  #6e11b0;">communauté</span> également.
+                    </p>
+            </div>
+
+            <section class="grid grid-cols-3 space-x-2 gap-2 my-4 relative">
+                <div class="h-[200px] rounded-xl bg-[#18335d36] px-4 py-2" >
+                    <p class="text-2xl font-bold italic">17.5K</p>
+                    <p>Membres inscrits</p>
+                    <p class="my-1 p-1">
+                        <img class="h-30" src="~/assets/confetti.png" alt="confetti emoji">
+                    </p>
+                </div>
+                <div class="h-[200px] rounded-xl bg-[#18335d36] px-4 py-2" >
+                    <p class="text-2xl font-bold italic">13.5K</p>
+                    <p>Posts partagés</p>
+                   
+                     <p class="my-1 p-1">
+                        <!--  🗳️ -->
+                        <img class="h-30" src="~/assets/poste.png" alt="poste emoji">
+                    </p>
+                </div>
+                <div class="h-[200px] rounded-xl bg-[#18335d36] px-4 py-2" >
+                    <p class="text-2xl font-bold italic">12.7K</p>
+                    <p>Objets retrouvés</p>
+                    
+                     <p class="my-1 p-1">
+                        <!-- 🪄 -->
+                        <img class="h-30" src="~/assets/magic.png" alt="magic emoji">
+                    </p>
+                </div>
+            </section>
         </div>
     </section>
 </template>
