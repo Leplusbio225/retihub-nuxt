@@ -12,12 +12,24 @@
 
         </div>
 
-        <!-- Most recent posts -->
+        <!-- Lost things -->
 
         <div class="p-3 space-y-4">
-            <p class="text-slate-300">
-                Les plus recents
-            </p>
+            <div class="space-y-4">
+                <p class="text-slate-300 underline">
+                    Objets perdus récemment
+                </p>
+                <p class="text-sm border border-dashed border-orange-400 rounded-xl inline-flex items-center gap-1 p-2 bg-orange-600/15">
+                    <span>
+                        <img src="~/assets/svg/exclamation.svg" alt="icon">
+                    </span>
+                    <span>
+                        <i class="font-bold text-2xl relative">"</i> J'ai retrouvé un objet figurant dans cette liste <i
+                            class="font-bold text-2xl relative">"</i> <br>
+                        <i>[Cliquez sur l'objet ou la publication en question si c'est le cas.]</i>
+                    </span>
+                </p>
+            </div>
             <section class="flex flex-wrap space-x-4 space-y-3 ">
 
                 <div v-for="i in 8" :key="i"
@@ -41,12 +53,24 @@
             </section>
         </div>
 
-        <!-- Most popular -->
+        <!-- Finding things -->
 
         <div class="p-3 space-y-4">
-            <p class="text-slate-300">
-                Les plus populaires
-            </p>
+            <div class="space-y-4">
+                <p class="text-slate-300 underline">
+                    Objets retrouvés récemment
+                </p>
+                <p class="text-sm items-center gap-1 border border-dashed border-orange-400 rounded-xl inline-flex p-2 bg-orange-600/15">
+                    <span>
+                        <img src="~/assets/svg/exclamation.svg" alt="icon">
+                    </span>
+                    <span>
+                        <i class="font-bold text-2xl relative">"</i> J'ai perdu un objet figurant dans cette liste <i
+                            class="font-bold text-2xl relative">"</i> <br>
+                        <i>[Cliquez sur l'objet ou la publication en question si c'est le cas.]</i>
+                    </span>
+                </p>
+            </div>
 
             <section class="flex flex-wrap space-x-4 space-y-3 ">
 
