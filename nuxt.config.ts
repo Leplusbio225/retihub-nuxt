@@ -5,21 +5,13 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   css: ["./app/assets/css/main.css"],
+  modules: ["@nuxt/ui", "nuxt-vue3-google-signin"],
 
   vite: {
     plugins: [tailwindcss()],
   },
 
-  modules: ["shadcn-nuxt"],
-  shadcn: {
-    /**
-     * Prefix for all the imported component
-     */
-    prefix: "",
-    /**
-     * Directory that the component lives in.
-     * @default "./components/ui"
-     */
-    componentDir: "./components/ui",
+  googleSignIn: {
+    clientId: 'CLIENT ID OBTAINED FROM GOOGLE API CONSOLE',
   },
 });
