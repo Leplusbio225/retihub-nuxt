@@ -3,6 +3,8 @@ export default defineAppConfig({
     colors: {
       primary: "purple",
       neutral: "neutral",
+      secondary: "retihub",
+      brand: "retihub"
     },
   },
 });
