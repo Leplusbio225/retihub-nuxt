@@ -100,6 +100,8 @@
 
                 <!-- Bouton visiter le hub -->
             </section>
+
+
         </div>
     </section>
 </template>
