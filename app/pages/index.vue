@@ -105,3 +105,10 @@
         </div>
     </section>
 </template>
+
+<script setup>
+useSeoMeta({
+    title: "Page d'accueil - RetiHub",
+    description: "Découvrez RetiHub, la plateforme qui vous permet de retrouver vos objets perdus."
+})
+</script>
