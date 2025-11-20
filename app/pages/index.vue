@@ -1,5 +1,4 @@
 <template>
-    <NuxtLoadingIndicator :throttle="0" :height="2" class="bg-orange" />
     <section class="grid place-content-center space-y-4 mt-8">
         <div class="space-y-2">
             <h2 class="font-bold text-6xl text-center">
