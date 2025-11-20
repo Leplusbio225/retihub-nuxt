@@ -1,11 +1,8 @@
 <template>
     <div class="flex justify-center items-center gap-2">
-        <NuxtLink to="/" class="flex items-center font-bold  text-2xl text-[#BF6BC7] ">
-            RetiHub
-            <img width="25" src="~/assets/svg/logo.svg" alt="logo RetiHub" />
-        </NuxtLink>
+        <Logo/>
         <span>-</span>
-        <p class="text-center">Page de connexion</p>
+        <p class="text-center">Page d'inscription</p>
 
 
     </div>
