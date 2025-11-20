@@ -9,7 +9,7 @@ const links = [
             label: 'Dashboard',
             icon: 'i-lucide-house',
             to: '/dashboard',
-            class: 'text-[#BF6BC7]',
+            class: 'text-[#BF6BC7] font-bold',
             onSelect: () => {
                 open.value = false
             },
@@ -63,7 +63,7 @@ const groups = computed(() => [{
     id: 'links',
     label: 'Aller à',
     items: links.flat()
-}, ])
+},])
 
 
 </script>
@@ -73,20 +73,37 @@ const groups = computed(() => [{
         <UDashboardSidebar id="default" v-model:open="open" collapsible resizable class="bg-elevated/25"
             :ui="{ footer: 'lg:border-t lg:border-default' }">
             <template #header="{ collapsed }">
-                <TeamsMenu :collapsed="collapsed" />
+                <Logo v-if="collapsed" class="h-5 w-auto shrink-0" />
+                <Logo v-else class="h-5 w-auto shrink-0" />
             </template>
 
             <template #default="{ collapsed }">
                 <UDashboardSearchButton :collapsed="collapsed" class="bg-transparent ring-default" />
 
-                <UNavigationMenu color="brand" :collapsed="collapsed" :items="links[0]" orientation="vertical" tooltip popover />
+                <UNavigationMenu color="brand" :collapsed="collapsed" :items="links[0]" orientation="vertical" tooltip
+                    popover />
 
                 <UNavigationMenu color="brand" :collapsed="collapsed" :items="links[1]" orientation="vertical" tooltip
                     class="mt-auto" />
             </template>
 
-            <template #footer="{ collapsed }">
-                <UserMenu :collapsed="collapsed" />
+            <template #footer>
+                <UDropdownMenu>
+
+
+                    <UButton variant="ghost" color="neutral" class="flex items-center justify-between w-full">
+                        <p>
+                            <UAvatar src="https://github.com/benjamincanac.png" :chip="{
+                                inset: true
+                            }" />
+                            <span>
+                                Jhon Doe
+                            </span>
+                        </p>
+                        <UIcon name="i-lucide-chevrons-up-down" class="size-5" />
+                    </UButton>
+
+                </UDropdownMenu>
             </template>
         </UDashboardSidebar>
 
