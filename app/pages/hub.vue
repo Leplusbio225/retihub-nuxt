@@ -19,7 +19,8 @@
                 <p class="text-slate-300 underline">
                     Objets perdus récemment
                 </p>
-                <p class="text-sm border border-dashed border-orange-400 rounded-xl inline-flex items-center gap-1 p-2 bg-orange-600/15">
+                <p
+                    class="text-sm border border-dashed border-orange-400 rounded-xl inline-flex items-center gap-1 p-2 bg-orange-600/15">
                     <span>
                         <img src="~/assets/svg/exclamation.svg" alt="icon">
                     </span>
@@ -60,7 +61,8 @@
                 <p class="text-slate-300 underline">
                     Objets retrouvés récemment
                 </p>
-                <p class="text-sm items-center gap-1 border border-dashed border-orange-400 rounded-xl inline-flex p-2 bg-orange-600/15">
+                <p
+                    class="text-sm items-center gap-1 border border-dashed border-orange-400 rounded-xl inline-flex p-2 bg-orange-600/15">
                     <span>
                         <img src="~/assets/svg/exclamation.svg" alt="icon">
                     </span>
@@ -77,7 +79,6 @@
                 <div v-for="i in 15" :key="i"
                     class="space-y-2 p-2 rounded-xl border border-slate-300 size-[200px] bg-gray-300">
                     <div class="h-[100px] w-full bg-gray-400 rounded-xl">
-
                     </div>
                     <div class="flex justify-between gap-2">
                         <p class="p-2 h-5 w-full bg-gray-400 rounded"></p>
